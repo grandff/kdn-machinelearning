@@ -1,0 +1,165 @@
+2021-09-30 17:11:46,321 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2021-09-30 17:11:46,323 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2021-09-30 17:11:46,326 DEBUG    root            Running [gcloud.components.update] with arguments: [--quiet: "True", COMPONENT-IDS:8: "['gcloud', 'core', 'bq', 'gsutil', 'compute', 'preview', 'alpha', 'beta']"]
+2021-09-30 17:11:46,333 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2021-09-30 17:11:46,338 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2021-09-30 17:11:46,373 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 167885
+2021-09-30 17:11:46,392 WARNING  root            Component [compute] no longer exists.
+2021-09-30 17:11:46,393 WARNING  root            Component [preview] no longer exists.
+2021-09-30 17:11:46,394 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,394 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 359.0.0
+
+2021-09-30 17:11:46,394 INFO     ___FILE_ONLY___ Installing components from version: 359.0.0
+
+2021-09-30 17:11:46,395 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,398 INFO     ___FILE_ONLY___ ┌──────────────────────────────────────────────┐
+2021-09-30 17:11:46,398 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,398 INFO     ___FILE_ONLY___ │     These components will be installed.      │
+2021-09-30 17:11:46,398 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,398 INFO     ___FILE_ONLY___ ├───────────────────────┬────────────┬─────────┤
+2021-09-30 17:11:46,398 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ │          Name         │  Version   │   Size  │
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ ├───────────────────────┼────────────┼─────────┤
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ │ 
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ gcloud Alpha Commands
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___  
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ │ 
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ 2021.09.24
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___  
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ │ 
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ < 1 MiB
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___  
+2021-09-30 17:11:46,399 INFO     ___FILE_ONLY___ │
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ │ 
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ gcloud Beta Commands 
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___  
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ │ 
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ 2021.09.24
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___  
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ │ 
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ < 1 MiB
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___  
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ │
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ └───────────────────────┴────────────┴─────────┘
+2021-09-30 17:11:46,400 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,401 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:46,403 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2021-09-30 17:11:46,493 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/1.1" 200 701560
+2021-09-30 17:11:46,596 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2021-09-30 17:11:46,601 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-09-30 17:11:46,602 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2021-09-30 17:11:46,602 INFO     ___FILE_ONLY___ ╚
+2021-09-30 17:11:46,602 INFO     ___FILE_ONLY___ ══════
+2021-09-30 17:11:47,117 INFO     ___FILE_ONLY___ ══════
+2021-09-30 17:11:47,117 INFO     ___FILE_ONLY___ ══════
+2021-09-30 17:11:47,418 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,455 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,500 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,561 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,617 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,675 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,726 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,788 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,920 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:47,982 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,045 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,104 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,160 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,215 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,282 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,346 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,402 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,460 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,515 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,602 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,662 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,717 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,797 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,852 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,882 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,911 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,945 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:48,976 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,019 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,275 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,447 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,541 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,611 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,676 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,748 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,833 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,904 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:49,971 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:50,051 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:50,106 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:50,162 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:50,219 INFO     ___FILE_ONLY___ ═
+2021-09-30 17:11:50,219 INFO     ___FILE_ONLY___ ╝
+
+2021-09-30 17:11:52,422 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-09-30 17:11:52,423 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Alpha Commands                        ═╣
+
+2021-09-30 17:11:52,423 INFO     ___FILE_ONLY___ ╚
+2021-09-30 17:11:52,426 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2021-09-30 17:11:52,519 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20210924152155.tar.gz HTTP/1.1" 200 750
+2021-09-30 17:11:52,520 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-09-30 17:11:52,522 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-09-30 17:11:52,522 INFO     ___FILE_ONLY___ ╝
+
+2021-09-30 17:11:52,533 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-09-30 17:11:52,534 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Beta Commands                         ═╣
+
+2021-09-30 17:11:52,534 INFO     ___FILE_ONLY___ ╚
+2021-09-30 17:11:52,538 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2021-09-30 17:11:52,629 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20210924152155.tar.gz HTTP/1.1" 200 746
+2021-09-30 17:11:52,630 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-09-30 17:11:52,631 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-09-30 17:11:52,631 INFO     ___FILE_ONLY___ ╝
+
+2021-09-30 17:11:52,643 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-09-30 17:11:52,643 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2021-09-30 17:11:52,643 INFO     ___FILE_ONLY___ ╚
+2021-09-30 17:11:52,643 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2021-09-30 17:11:52,644 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-09-30 17:11:52,644 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2021-09-30 17:11:52,644 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-09-30 17:11:52,644 INFO     ___FILE_ONLY___ ╝
+
+2021-09-30 17:11:52,648 DEBUG    root            Updating notification cache...
+2021-09-30 17:11:52,649 INFO     ___FILE_ONLY___ 
+
+2021-09-30 17:11:52,654 INFO     ___FILE_ONLY___ Performing post processing steps...
+2021-09-30 17:11:52,655 DEBUG    root            Executing command: ['python3', '-S', '/tools/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process']
+2021-09-30 17:12:12,706 DEBUG    ___FILE_ONLY___ 
+2021-09-30 17:12:12,707 DEBUG    ___FILE_ONLY___ 
+2021-09-30 17:12:12,937 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2021-09-30 17:12:12,942 INFO     root            Display format: "none"
